@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{DBAB19E1-F9F2-4DE0-A4CE-18FF4784613A}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,6 +13,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{047E57FE-A447-499D-BF6F-4A5BCA861DD7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{B4552C80-53DE-4688-8399-64A1C58FAC79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5A84651B-443B-4786-96D8-CFAD9705B72F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{2267EF6B-D26A-4434-AF43-47C8DDD76686}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +32,10 @@ Global
 		{B4552C80-53DE-4688-8399-64A1C58FAC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4552C80-53DE-4688-8399-64A1C58FAC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4552C80-53DE-4688-8399-64A1C58FAC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2267EF6B-D26A-4434-AF43-47C8DDD76686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2267EF6B-D26A-4434-AF43-47C8DDD76686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2267EF6B-D26A-4434-AF43-47C8DDD76686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2267EF6B-D26A-4434-AF43-47C8DDD76686}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,8 @@ Global
 		{DBAB19E1-F9F2-4DE0-A4CE-18FF4784613A} = {B6806FF7-CF8C-46B2-A2EE-7D4F83590E81}
 		{047E57FE-A447-499D-BF6F-4A5BCA861DD7} = {DBAB19E1-F9F2-4DE0-A4CE-18FF4784613A}
 		{B4552C80-53DE-4688-8399-64A1C58FAC79} = {DBAB19E1-F9F2-4DE0-A4CE-18FF4784613A}
+		{5A84651B-443B-4786-96D8-CFAD9705B72F} = {B6806FF7-CF8C-46B2-A2EE-7D4F83590E81}
+		{2267EF6B-D26A-4434-AF43-47C8DDD76686} = {5A84651B-443B-4786-96D8-CFAD9705B72F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7901713-7228-4577-9AFC-6F7A53E4D176}
